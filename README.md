@@ -19,7 +19,7 @@ Here's a breakdown of the project directory structure:
 └── LICENSE             # License file 
 ``` 
 
-##🚀 Installation
+## 🚀 Installation
 Get started with the following steps:
 ```
 # Clone the repository
