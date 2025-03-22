@@ -21,7 +21,7 @@ Here's a breakdown of the project directory structure:
 
 🚀 Installation
 Get started with the following steps:
-
+```
 # Clone the repository
 git clone https://github.com/yourusername/project-name.git
 
@@ -39,3 +39,4 @@ env\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
