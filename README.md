@@ -40,7 +40,7 @@ env\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-##📥 Configuration
+## 📥 Configuration
 Ensure that your configuration files are set correctly. You can modify the default settings in the config/ directory.
 ```
 📦 config/
@@ -55,4 +55,24 @@ python src/main.py
 This will launch the program and start processing according to the implemented logic. Modify the config/config.yaml file as needed to tweak settings.
 
 
-##🧪 Testing
+## 🧪 Testing
+Make sure to run the test suite to ensure everything works as expected:
+```
+python -m unittest discover tests/
+```
+
+## 🧑‍💻 Contributing
+Contributions are welcome! To contribute to the project, follow these steps:
+
+Fork the repository.
+
+Create a new branch: git checkout -b feature/your-feature
+
+Commit your changes: git commit -m "Add your feature"
+
+Push to your branch: git push origin feature/your-feature
+
+Create a Pull Request on GitHub.
+
+## 🐛 Issues
+If you encounter any issues or bugs, feel free to report them here.
