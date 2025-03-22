@@ -37,4 +37,5 @@ To install this project locally, follow these steps:
 git clone https://github.com/username/repo-name.git
 cd repo-name
 npm install
-npm start'''
+npm start
+'''
