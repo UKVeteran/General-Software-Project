@@ -1,115 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project README</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f0f4f8;
-      color: #333;
-      transition: background-color 0.3s ease-in-out;
-    }
+# 🚀 Project Name
 
-    h1, h2 {
-      color: #007bff;
-      font-family: 'Helvetica Neue', sans-serif;
-      border-bottom: 2px solid #007bff;
-      padding-bottom: 5px;
-    }
+**Description:**  
+A brief yet informative description of your project. Explain its purpose, target audience, and key features.
 
-    h1 {
-      text-transform: uppercase;
-      font-size: 2.5rem;
-      letter-spacing: 1px;
-    }
+---
 
-    h2 {
-      margin-top: 30px;
-      font-size: 1.75rem;
-    }
+## ✨ Features
+- **Feature 1:** Describe a primary feature  
+  <details>
+  <summary>Click for details</summary>
+  Detailed description of Feature 1.
+  </details>
+- **Feature 2:** Explain how it solves a problem  
+  <details>
+  <summary>Click for details</summary>
+  More information about Feature 2.
+  </details>
+- **Feature 3:** Additional unique functionality  
+  <details>
+  <summary>Click for details</summary>
+  Extra functionality provided by Feature 3.
+  </details>
 
-    pre {
-      background-color: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      overflow-x: auto;
-      font-family: 'Courier New', monospace;
-      font-size: 1.1rem;
-    }
+---
 
-    a {
-      color: #007bff;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
+## 📦 Installation
 
-    a:hover {
-      color: #0056b3;
-      text-decoration: underline;
-    }
+Follow these steps to install the project locally:
 
-    ul, ol {
-      margin-top: 0;
-      padding-left: 20px;
-    }
-
-    ul li {
-      margin-bottom: 10px;
-    }
-
-    .highlight {
-      color: #007bff;
-      font-weight: bold;
-    }
-
-    .tooltip {
-      position: relative;
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 120px;
-      background-color: #6c757d;
-      color: #fff;
-      text-align: center;
-      border-radius: 5px;
-      padding: 5px;
-      position: absolute;
-      z-index: 1;
-      bottom: 125%; /* Position above the text */
-      left: 50%;
-      margin-left: -60px;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      opacity: 1;
-    }
-  </style>
-</head>
-<body>
-  <h1>🚀 Project Name</h1>
-  <p><strong>Description:</strong> A brief yet informative description of your project. Explain its purpose, target audience, and key features.</p>
-
-  <h2>✨ Features</h2>
-  <ul>
-    <li><span class="tooltip">Feature 1 - Describe a primary feature<span class="tooltiptext">Detailed description of Feature 1.</span></span></li>
-    <li><span class="tooltip">Feature 2 - Explain how it solves a problem<span class="tooltiptext">More information about Feature 2.</span></span></li>
-    <li><span class="tooltip">Feature 3 - Additional unique functionality<span class="tooltiptext">Extra functionality provided by Feature 3.</span></span></li>
-  </ul>
-
-  <h2>📦 Installation</h2>
-  <p>Follow these steps to install the project locally:</p>
-  <pre><code>
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/project-name.git
 
@@ -118,52 +37,59 @@ cd project-name
 
 # Install dependencies
 npm install
-  </code></pre>
+🚀 Usage
+To run the application locally:
 
-  <h2>🚀 Usage</h2>
-  <p>To run the application locally:</p>
-  <pre><code>
+bash
+Copy
+Edit
 npm start
-  </code></pre>
-  <p>For production:</p>
-  <pre><code>
-npm run build
-  </code></pre>
+For production:
 
-  <h2>⚙️ Configuration</h2>
-  <p>Update environment variables in the <code>.env</code> file if necessary. Example:</p>
-  <pre><code>
+bash
+Copy
+Edit
+npm run build
+⚙️ Configuration
+Update environment variables in the .env file if necessary. Example:
+
+bash
+Copy
+Edit
 API_KEY=your_api_key
 DATABASE_URL=your_database_url
-  </code></pre>
+🧪 Tests
+To run tests, execute:
 
-  <h2>🧪 Tests</h2>
-  <p>To run tests, execute:</p>
-  <pre><code>
+bash
+Copy
+Edit
 npm test
-  </code></pre>
+📜 Contributing
+Contributions are welcome! Please follow these steps:
 
-  <h2>📜 Contributing</h2>
-  <p>Contributions are welcome! Please follow these steps:</p>
-  <ol>
-    <li>Fork the repository</li>
-    <li>Create a new branch: <code>git checkout -b feature/your-feature</code></li>
-    <li>Commit your changes: <code>git commit -m 'Add your feature'</code></li>
-    <li>Push to the branch: <code>git push origin feature/your-feature</code></li>
-    <li>Create a Pull Request</li>
-  </ol>
+Fork the repository
 
-  <h2>🐛 Issues</h2>
-  <p>If you encounter any issues, please report them <a href="https://github.com/yourusername/project-name/issues">here</a>.</p>
+Create a new branch:
+git checkout -b feature/your-feature
 
-  <h2>📄 License</h2>
-  <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+Commit your changes:
+git commit -m 'Add your feature'
 
-  <h2>💬 Contact</h2>
-  <p>For further inquiries, feel free to reach out via:</p>
-  <ul>
-    <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-    <li>GitHub: <a href="https://github.com/yourusername">yourusername</a></li>
-  </ul>
-</body>
-</html>
+Push to the branch:
+git push origin feature/your-feature
+
+Create a Pull Request
+
+🐛 Issues
+If you encounter any issues, please report them here.
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+💬 Contact
+For further inquiries, feel free to reach out via:
+
+Email: your-email@example.com
+
+GitHub: yourusername
