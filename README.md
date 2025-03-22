@@ -64,15 +64,15 @@ python -m unittest discover tests/
 ## 🧑‍💻 Contributing
 Contributions are welcome! To contribute to the project, follow these steps:
 
-Fork the repository.
+1) Fork the repository.
 
-Create a new branch: git checkout -b feature/your-feature
+2) Create a new branch: git checkout -b feature/your-feature
 
-Commit your changes: git commit -m "Add your feature"
+3) Commit your changes: git commit -m "Add your feature"
 
-Push to your branch: git push origin feature/your-feature
+4) Push to your branch: git push origin feature/your-feature
 
-Create a Pull Request on GitHub.
+5) Create a Pull Request on GitHub.
 
 ## 🐛 Issues
 If you encounter any issues or bugs, feel free to report them here.
