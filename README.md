@@ -43,7 +43,7 @@ npm start
 
 ---
 
-🎮 Usage
+##  Usage  ##
 Run the following commands to build and test the project:
 npm run build
 npm test
