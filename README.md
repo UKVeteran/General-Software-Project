@@ -19,7 +19,7 @@ Here's a breakdown of the project directory structure:
 └── LICENSE             # License file 
 ``` 
 
-🚀 Installation
+##🚀 Installation
 Get started with the following steps:
 ```
 # Clone the repository
@@ -40,14 +40,14 @@ env\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-📥 Configuration
+##📥 Configuration
 Ensure that your configuration files are set correctly. You can modify the default settings in the config/ directory.
 ```
 📦 config/
 └── config.yaml        # Configuration file for software setup
 ```
 
-🚦 Usage
+## 🚦 Usage
 To run the software, execute the following command:
 ```
 python src/main.py
@@ -55,5 +55,4 @@ python src/main.py
 This will launch the program and start processing according to the implemented logic. Modify the config/config.yaml file as needed to tweak settings.
 
 
-
-📥 Configurati`
+##🧪 Testing
