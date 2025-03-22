@@ -41,4 +41,3 @@ npm start
 
 ---
 
-## 🛠️ **Installation**
