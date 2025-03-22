@@ -6,7 +6,7 @@
     <title>Project Name</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -58,6 +58,7 @@
             outline: none;
             font-size: 15px;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
         .active, .collapsible:hover {
             background-color: #ccc;
@@ -109,6 +110,12 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .demo-image {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+            margin-top: 20px;
         }
     </style>
 </head>
