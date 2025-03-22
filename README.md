@@ -17,3 +17,25 @@ Here's a breakdown of the project directory structure:
 ├── config/             # Configuration files
 ├── README.md           # Project documentation
 └── LICENSE             # License file
+
+
+🚀 Installation
+Get started with the following steps:
+
+# Clone the repository
+git clone https://github.com/yourusername/project-name.git
+
+# Navigate to the project directory
+cd project-name
+
+# Create a virtual environment
+python -m venv env
+
+# Activate the virtual environment (Linux/macOS)
+source env/bin/activate
+
+# For Windows:
+env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
