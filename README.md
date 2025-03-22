@@ -41,6 +41,7 @@ cd repo-name
 npm install
 npm start
 
+---
 
 🎮 Usage
 Run the following commands to build and test the project:
@@ -49,7 +50,7 @@ npm test
 
 For local development, use:
 npm start
-
+---
 
 ⭐ Features
 Here are some key features of this project:
