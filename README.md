@@ -6,43 +6,105 @@
   <title>Project README</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       line-height: 1.6;
       margin: 40px;
+      background-color: #f0f4f8;
       color: #333;
+      transition: background-color 0.3s ease-in-out;
     }
+
     h1, h2 {
       color: #007bff;
+      font-family: 'Helvetica Neue', sans-serif;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
     }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 1.75rem;
+    }
+
     pre {
-      background-color: #f4f4f4;
-      padding: 10px;
-      border-radius: 5px;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 1.1rem;
     }
+
     a {
       color: #007bff;
       text-decoration: none;
+      transition: color 0.3s;
     }
+
     a:hover {
+      color: #0056b3;
       text-decoration: underline;
     }
+
     ul, ol {
       margin-top: 0;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #6c757d;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Position above the text */
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
     }
   </style>
 </head>
 <body>
   <h1>🚀 Project Name</h1>
-  <p>
-    <strong>Description:</strong> A brief yet informative description of your project. Explain its purpose, target audience, and key features.
-  </p>
+  <p><strong>Description:</strong> A brief yet informative description of your project. Explain its purpose, target audience, and key features.</p>
 
   <h2>✨ Features</h2>
   <ul>
-    <li>Feature 1 - Describe a primary feature</li>
-    <li>Feature 2 - Explain how it solves a problem</li>
-    <li>Feature 3 - Additional unique functionality</li>
+    <li><span class="tooltip">Feature 1 - Describe a primary feature<span class="tooltiptext">Detailed description of Feature 1.</span></span></li>
+    <li><span class="tooltip">Feature 2 - Explain how it solves a problem<span class="tooltiptext">More information about Feature 2.</span></span></li>
+    <li><span class="tooltip">Feature 3 - Additional unique functionality<span class="tooltiptext">Extra functionality provided by Feature 3.</span></span></li>
   </ul>
 
   <h2>📦 Installation</h2>
@@ -69,9 +131,7 @@ npm run build
   </code></pre>
 
   <h2>⚙️ Configuration</h2>
-  <p>
-    Update environment variables in the <code>.env</code> file if necessary. Example:
-  </p>
+  <p>Update environment variables in the <code>.env</code> file if necessary. Example:</p>
   <pre><code>
 API_KEY=your_api_key
 DATABASE_URL=your_database_url
@@ -84,9 +144,7 @@ npm test
   </code></pre>
 
   <h2>📜 Contributing</h2>
-  <p>
-    Contributions are welcome! Please follow these steps:
-  </p>
+  <p>Contributions are welcome! Please follow these steps:</p>
   <ol>
     <li>Fork the repository</li>
     <li>Create a new branch: <code>git checkout -b feature/your-feature</code></li>
@@ -96,9 +154,7 @@ npm test
   </ol>
 
   <h2>🐛 Issues</h2>
-  <p>If you encounter any issues, please report them
-    <a href="https://github.com/yourusername/project-name/issues">here</a>.
-  </p>
+  <p>If you encounter any issues, please report them <a href="https://github.com/yourusername/project-name/issues">here</a>.</p>
 
   <h2>📄 License</h2>
   <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
@@ -106,7 +162,7 @@ npm test
   <h2>💬 Contact</h2>
   <p>For further inquiries, feel free to reach out via:</p>
   <ul>
-    <li>Email: your-email@example.com</li>
+    <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
     <li>GitHub: <a href="https://github.com/yourusername">yourusername</a></li>
   </ul>
 </body>
