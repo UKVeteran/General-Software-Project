@@ -4,11 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project README</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      color: #333;
+    }
+    h1, h2 {
+      color: #007bff;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul, ol {
+      margin-top: 0;
+    }
+  </style>
 </head>
 <body>
   <h1>🚀 Project Name</h1>
   <p>
-    <strong>Description:</strong> A brief yet informative description of your project. Explain its purpose, target audience, and key features.  
+    <strong>Description:</strong> A brief yet informative description of your project. Explain its purpose, target audience, and key features.
   </p>
 
   <h2>✨ Features</h2>
@@ -21,24 +48,24 @@
   <h2>📦 Installation</h2>
   <p>Follow these steps to install the project locally:</p>
   <pre><code>
-  # Clone the repository
-  git clone https://github.com/yourusername/project-name.git
-  
-  # Navigate to the project folder
-  cd project-name
+# Clone the repository
+git clone https://github.com/yourusername/project-name.git
 
-  # Install dependencies
-  npm install
+# Navigate to the project folder
+cd project-name
+
+# Install dependencies
+npm install
   </code></pre>
 
   <h2>🚀 Usage</h2>
   <p>To run the application locally:</p>
   <pre><code>
-  npm start
+npm start
   </code></pre>
   <p>For production:</p>
   <pre><code>
-  npm run build
+npm run build
   </code></pre>
 
   <h2>⚙️ Configuration</h2>
@@ -46,27 +73,27 @@
     Update environment variables in the <code>.env</code> file if necessary. Example:
   </p>
   <pre><code>
-  API_KEY=your_api_key
-  DATABASE_URL=your_database_url
+API_KEY=your_api_key
+DATABASE_URL=your_database_url
   </code></pre>
 
   <h2>🧪 Tests</h2>
   <p>To run tests, execute:</p>
   <pre><code>
-  npm test
+npm test
   </code></pre>
 
   <h2>📜 Contributing</h2>
   <p>
-    Contributions are welcome! Please follow these steps:  
-    <ol>
-      <li>Fork the repository</li>
-      <li>Create a new branch: <code>git checkout -b feature/your-feature</code></li>
-      <li>Commit your changes: <code>git commit -m 'Add your feature'</code></li>
-      <li>Push to the branch: <code>git push origin feature/your-feature</code></li>
-      <li>Create a Pull Request</li>
-    </ol>
+    Contributions are welcome! Please follow these steps:
   </p>
+  <ol>
+    <li>Fork the repository</li>
+    <li>Create a new branch: <code>git checkout -b feature/your-feature</code></li>
+    <li>Commit your changes: <code>git commit -m 'Add your feature'</code></li>
+    <li>Push to the branch: <code>git push origin feature/your-feature</code></li>
+    <li>Create a Pull Request</li>
+  </ol>
 
   <h2>🐛 Issues</h2>
   <p>If you encounter any issues, please report them
@@ -77,11 +104,10 @@
   <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
   <h2>💬 Contact</h2>
-  <p>For further inquiries, feel free to reach out via:  
-    <ul>
-      <li>Email: your-email@example.com</li>
-      <li>GitHub: <a href="https://github.com/yourusername">yourusername</a></li>
-    </ul>
-  </p>
+  <p>For further inquiries, feel free to reach out via:</p>
+  <ul>
+    <li>Email: your-email@example.com</li>
+    <li>GitHub: <a href="https://github.com/yourusername">yourusername</a></li>
+  </ul>
 </body>
 </html>
