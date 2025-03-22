@@ -40,3 +40,20 @@ env\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
+📥 Configuration
+Ensure that your configuration files are set correctly. You can modify the default settings in the config/ directory.
+```
+📦 config/
+└── config.yaml        # Configuration file for software setup
+```
+
+🚦 Usage
+To run the software, execute the following command:
+```
+python src/main.py
+```
+This will launch the program and start processing according to the implemented logic. Modify the config/config.yaml file as needed to tweak settings.
+
+
+
+📥 Configurati`
