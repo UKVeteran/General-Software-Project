@@ -5,7 +5,7 @@ Welcome to the **General Software Project**! This repository contains a software
 ## 🛠️ Project Structure
 Here's a breakdown of the project directory structure:
 
-
+''' 
 📦 project-name
 ├── src/                # Source code for the software
 │   ├── main.py         # Entry point for the software
@@ -18,6 +18,7 @@ Here's a breakdown of the project directory structure:
 ├── README.md           # Project documentation
 └── LICENSE             # License file 
 
+''' 
 
 🚀 Installation
 Get started with the following steps:
